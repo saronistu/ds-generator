@@ -1,0 +1,319 @@
+h1, h2, h3, h4, h5, h6 {
+	margin-block-start: 0em !important;
+	margin-block-end: 0em !important;
+	margin-bottom: 0;
+}
+
+p {
+	margin-bottom: 0 !important;
+}
+
+.container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.header h2 {
+	letter-spacing: 10px;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.top-bottom-paddings {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.less-font-weight {
+	font-weight: 400;
+}
+
+.data-section .container {
+	border: 1px solid;
+}
+
+.column-half, .column-large {
+	width: 50%;
+}
+
+.my-row {
+	display: flex;
+}
+
+.column-half p, .column-small p {
+	padding-left: 40px;
+}
+
+.italic-text {
+	font-style: italic;
+}
+
+.data-section-1, .data-section-3 {
+	padding-bottom: 30px;
+}
+
+.numeric-fields p {
+	padding-left: 5px;
+}
+
+.numeric-fields {
+	display: flex;
+	min-height: 26px;
+}
+
+.more-text-possible {
+	height: 100%;
+}
+
+.field {
+	border: 1px solid;
+	width: 100%;
+	margin: 0px 5px;
+}
+
+.field-for-table {
+	width: 100%;
+	margin: 0px 5px;
+}
+
+.field-dob {
+	border: 1px solid;
+	width: 10%;
+	text-align: center;
+	padding-left: 0 !important;
+}
+
+.field-dob-first {
+	margin-left: 5px;
+}
+
+.column-small {
+	width: 25%;
+}
+
+.column-large.field {
+	margin: 0;
+}
+
+.numeric-fields .no-margin {
+	margin: 0 0 0 5px;
+}
+
+.column-large .field {
+	margin: 0;
+}
+
+.numbering {
+	min-width: 34px;
+}
+
+.numeric-fields .field {
+	font-weight: bold;
+}
+
+.serie-diploma {
+	width: 42%;
+	justify-content: right;
+}
+
+.give-me-width {
+	min-width: 58%;
+}
+
+.serie-wrap {
+	display: flex;
+}
+
+.display-flex {
+	display: flex;
+}
+
+.serial-number {
+	min-width: 100px;
+	text-align: center;
+}
+
+.last-row {
+	padding-bottom: 20px;
+}
+
+.single-row {
+	display: block;
+}
+
+.single-row .needs-padding {
+	padding-left: 50px;
+}
+
+.all-space {
+	min-width: 100%;
+}
+
+.field-more-height {
+	min-height: 98px;
+}
+
+.form-control {
+	max-width: 300px;
+}
+
+.sub, .sup {
+	font-size: 60% !important;
+}
+
+.end-of-page {
+	padding-bottom: 70px;
+	width: 33%;
+}
+
+.end-of-page .page-number {
+	text-align: center;
+}
+
+.end-of-page .ls {
+	text-align: end;
+}
+
+.justify-text {
+	text-align: justify;
+	padding-right: 10px;
+}
+
+.div-table {
+	display: table;
+	width: 100%;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+.table-row {
+	display: table-row;
+}
+.table-heading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.table-cell, .table-head {
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.table-heading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.table-foot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.table-body {
+	display: table-row-group;
+}
+
+.table-header {
+	font-weight: bold;
+}
+
+.table-year {
+	text-align: center;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+}
+
+.col1-header {
+	width: 6%;
+	text-align: center;
+}
+
+.col2-header {
+	width: 38%;
+	text-align: left;
+}
+
+.col3-header {
+	width: 16%;
+	text-align: center;
+}
+
+.col4-header, .col5-header {
+	width: 20%;
+	text-align: center;
+}
+
+.col1 {
+	width: 6%;
+}
+
+.col2 {
+	width: 38%;
+}
+
+.col3 {
+	width: 6%;
+}
+
+.col4, .col5, .col6, .col7, .col8 {
+	width: 10%;
+}
+
+.col1, .col3, .col4, .col5, .col6, .col7, .col8 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.col2 {
+	font-weight: bold;
+}
+
+.my-border-bottom {
+	border-bottom: 1px solid #000000;
+	min-height: 73px;
+}
+
+.divided-cell {
+	padding: 0;
+}
+
+.two-cells {
+	display: flex;
+}
+
+.two-cells .number-of-hours1 {
+	width: 38% !important;
+	padding-top: 10px;
+}
+
+.two-cells .number-of-hours2 {
+	width: 62% !important;
+	padding-top: 10px;
+}
+
+.two-cells .col3, .two-cells .col4 {
+	width: 50%;
+}
+
+.two-cells .col3 {
+	border-right: 1px solid #000000;
+}
+
+.nobold {
+	font-weight: normal;
+	min-height: 48px;
+}
+
+.flex {
+	display: flex;
+}
